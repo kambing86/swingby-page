@@ -1,10 +1,10 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Home/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import store from "./store";
-import "./App.css";
+import "./App.scss";
 
 const App: React.FC = () => {
   return (
