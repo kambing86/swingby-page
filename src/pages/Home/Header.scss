@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 .header {
+  position: relative;
   font-family: Montserrat;
   min-width: 320px;
   background: radial-gradient(
@@ -8,45 +9,53 @@
     #0f0e8a 0%,
     #0e0f69 100%
   );
-
-  a {
-    color: white;
-    font-weight: 600;
-    line-height: 24px;
-    margin: 0 1em;
-
-    &:hover {
-      color: #5ddaf4;
-      text-decoration: none;
-    }
-
-    @include media-breakpoint-up(md) {
-      font-size: 0.8rem;
-    }
-
-    @include media-breakpoint-up(lg) {
-      font-size: 1rem;
-    }
-  }
+  min-height: 920px;
 
   .header-star {
-    background: url("/assets/HEADER02/star.png") 50% 50%;
+    position: absolute;
+    background: url("/assets/HEADER02/star.png") 50% 100%;
+    min-height: 920px;
+    width: 100%;
   }
 
   .header-orbit {
-    background: url("/assets/HEADER02/orbit.png") 50% 50% no-repeat;
+    position: absolute;
+    background: url("/assets/HEADER02/orbit.png") 50% 100% no-repeat;
     min-height: 920px;
+    width: 100%;
+  }
+
+  .header-bg {
+    position: absolute;
+    top: 0;
+    mix-blend-mode: screen;
+    background: url("/assets/HEADER02/bg.png") 50% 100% no-repeat;
+    min-height: 920px;
+    width: 100%;
   }
 
   .header-logo {
     position: absolute;
     top: 40px;
-    left: 70px;
+    left: 3em;
   }
 
   .top-menu {
     position: absolute;
     top: 48px;
     right: 1em;
+
+    a {
+      color: white;
+      font-weight: 600;
+      line-height: 24px;
+      margin: 0 1em;
+      font-size: 0.8em;
+
+      &:hover {
+        color: #5ddaf4;
+        text-decoration: none;
+      }
+    }
   }
 }
