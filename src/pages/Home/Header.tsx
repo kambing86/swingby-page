@@ -23,10 +23,9 @@ export default () => {
       <div
         style={{
           color: "white",
-          position: "absolute",
-          top: 167,
+          paddingTop: 167,
           width: "100%",
-          fontSize: 50,
+          fontSize: "2.2em",
         }}
       >
         Creating <strong>decentralized BTC</strong>
@@ -36,10 +35,8 @@ export default () => {
       <div
         style={{
           color: "white",
-          position: "absolute",
-          top: 326,
           width: "100%",
-          fontSize: 24,
+          fontSize: "1.1em",
         }}
       >
         Swingby Connect is a cross-chain protocol that brings BTC
