@@ -15,6 +15,7 @@
       }
     ],
     "prefer-type-cast": ["off"],
-    "use-simple-attributes": ["off"]
+    "use-simple-attributes": ["off"],
+    "max-func-body-length": ["off"]
   }
 }

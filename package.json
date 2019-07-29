@@ -28,11 +28,13 @@
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-spring": "^8.0.27",
     "react-use": "^10.1.2",
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "typesafe-actions": "^4.4.2",
-    "typescript": "3.5.3"
+    "typescript": "3.5.3",
+    "use-gsap": "^1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.13.0",

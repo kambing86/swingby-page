@@ -1,31 +1,48 @@
 import React from "react";
-import { useWindowScroll } from "react-use";
+import { Link } from "react-router-dom";
+import Animation from "./Animation";
 import "./Header.scss";
+import Parallax from "./Parallax";
 
 export default () => {
-  const { y } = useWindowScroll();
   return (
     <div className="header">
-      <div
-        className="header-star"
-        style={{ transform: `translate(0, ${0.2 * y}px)` }}
-      />
-      <div
-        className="header-orbit"
-        style={{ transform: `translate(0, ${0.3 * y}px)` }}
-      />
-      <div
-        className="header-bg"
-        style={{ transform: `translate(0, ${0.4 * y}px)` }}
-      />
+      <Parallax />
+      <Animation />
       <a className="header-logo" href="/">
         <img src="/assets/HEADER02/LOGO.png" alt="LOGO" />
       </a>
       <div className="top-menu d-none d-md-block">
-        <a href="/Product">PRODUCT</a>
-        <a href="https://medium.com/swingby-protocol/">BLOG</a>
-        <a href="https://github.com/swingbyprotocol/">GITHUB</a>
-        <a href="https://twitter.com/swingbyprotocol/">TWITTER</a>
+        <a href="#/Product">PRODUCT</a>
+        <Link to="https://medium.com/swingby-protocol/">BLOG</Link>
+        <Link to="https://github.com/swingbyprotocol/">GITHUB</Link>
+        <Link to="https://twitter.com/swingbyprotocol/">TWITTER</Link>
+      </div>
+      <div
+        style={{
+          color: "white",
+          position: "absolute",
+          top: 167,
+          width: "100%",
+          fontSize: 50,
+        }}
+      >
+        Creating <strong>decentralized BTC</strong>
+        <br />
+        on all the <strong>blockchains</strong>
+      </div>
+      <div
+        style={{
+          color: "white",
+          position: "absolute",
+          top: 326,
+          width: "100%",
+          fontSize: 24,
+        }}
+      >
+        Swingby Connect is a cross-chain protocol that brings BTC
+        <br />
+        to other blockchains in a decentralized way.
       </div>
     </div>
   );
