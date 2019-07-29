@@ -4,13 +4,15 @@ import Animation from "./Animation";
 import "./Header.scss";
 import Parallax from "./Parallax";
 
+const { PUBLIC_URL } = process.env;
+
 export default () => {
   return (
     <div className="header">
       <Parallax />
       <Animation />
       <a className="header-logo" href="/">
-        <img src="/assets/HEADER02/LOGO.png" alt="LOGO" />
+        <img src={`${PUBLIC_URL}/assets/HEADER02/LOGO.png`} alt="LOGO" />
       </a>
       <div className="top-menu d-none d-md-block">
         <Link to="/Product">PRODUCT</Link>
