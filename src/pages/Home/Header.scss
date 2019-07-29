@@ -13,14 +13,14 @@
 
   .header-star {
     position: absolute;
-    background: url("/assets/HEADER02/star.png") 50% 100%;
+    background: 50% 100%;
     min-height: 920px;
     width: 100%;
   }
 
   .header-orbit {
     position: absolute;
-    background: url("/assets/HEADER02/orbit.png") 50% 100% no-repeat;
+    background: 50% 100% no-repeat;
     min-height: 920px;
     width: 100%;
   }
@@ -29,7 +29,7 @@
     position: absolute;
     top: 0;
     mix-blend-mode: screen;
-    background: url("/assets/HEADER02/bg.png") 50% 100% no-repeat;
+    background: 50% 100% no-repeat;
     min-height: 920px;
     width: 100%;
   }
