@@ -20,7 +20,7 @@ jobs:
       script: yarn prettier
     - stage: test
       name: jest
-      script: yarn test
+      script: CI=true yarn test --coverage
     - stage: build
       script: yarn build
     - stage: deploy
