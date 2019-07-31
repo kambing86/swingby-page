@@ -1,7 +1,7 @@
+import AnimatedImage from "components/common/AnimatedImage";
+import useSprintRepeat from "hooks/useSprintRepeat";
 import React from "react";
 import { useWindowSize } from "react-use";
-import useSprintRepeat from "../../hooks/useSprintRepeat";
-import AnimatedImage from "./AnimatedImage";
 
 const { PUBLIC_URL } = process.env;
 const rotateConfig = { mass: 1, tension: 0.5, friction: 1 };

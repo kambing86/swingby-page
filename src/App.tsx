@@ -1,8 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./pages/Home/HomePage";
-import NotFoundPage from "./pages/NotFoundPage";
+import HomePage from "./components/pages/Home/HomePage";
+import NotFoundPage from "./components/pages/NotFoundPage";
 import store from "./store";
 import "./App.scss";
 

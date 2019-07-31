@@ -37,3 +37,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.text-primary {
+  color: white !important;
+}
+
+.text-secondary {
+  color: #102e83 !important;
+}
+
+a.link-primary {
+  div {
+    border-radius: 10px;
+    background: #102e83;
+    color: white;
+    padding: 0.5em;
+  }
+  &:hover {
+    text-decoration: unset;
+  }
+}

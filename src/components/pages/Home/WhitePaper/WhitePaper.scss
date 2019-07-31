@@ -1,0 +1,19 @@
+.whitepaper {
+  background: white;
+
+  .whitepaper-header {
+    font-size: 2em;
+  }
+
+  .align-middle-container:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  .middle-section {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
