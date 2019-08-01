@@ -24,7 +24,7 @@ export default () => {
       <div
         className="header-bg"
         style={{
-          backgroundImage: `url("${PUBLIC_URL}/assets/HEADER02/bg.png")`,
+          backgroundImage: `url("${PUBLIC_URL}/assets/HEADER02/bg.svg")`,
           transform: `translate(0, ${0.4 * y}px)`,
         }}
       />
