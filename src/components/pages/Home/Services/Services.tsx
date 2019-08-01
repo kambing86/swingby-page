@@ -2,6 +2,8 @@ import React from "react";
 import "./Services.scss";
 import ServiceContainer from "./ServiceContainer";
 
+const { PUBLIC_URL } = process.env;
+
 export default () => (
   <div className="services text-primary py-3">
     <div className="services-header my-5">
@@ -9,7 +11,7 @@ export default () => (
       Services
     </div>
     <ServiceContainer
-      imageSrc="/assets/services/swingby_trusted_cloud.png"
+      imageSrc={`${PUBLIC_URL}/assets/services/swingby_trusted_cloud.png`}
       imageAlt="swingby_trusted_cloud"
       title={
         <>
@@ -38,7 +40,7 @@ export default () => (
       }
     />
     <ServiceContainer
-      imageSrc="/assets/services/swingby_swap.png"
+      imageSrc={`${PUBLIC_URL}/assets/services/swingby_swap.png`}
       imageAlt="swingby_swap"
       title={
         <>
