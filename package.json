@@ -35,7 +35,7 @@
     "redux-devtools-extension": "^2.13.8",
     "typesafe-actions": "^4.4.2",
     "typescript": "3.5.3",
-    "use-gsap": "^1.0.0"
+    "use-is-in-viewport": "^1.0.3"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.9",
