@@ -12,7 +12,7 @@ export default () => {
       <Parallax />
       <Animation />
       <a className="header-logo" href="/">
-        <img src={`${PUBLIC_URL}/assets/HEADER02/LOGO.png`} alt="LOGO" />
+        <img src={`${PUBLIC_URL}/assets/header/LOGO.png`} alt="LOGO" />
       </a>
       <div className="top-menu d-none d-md-block">
         <Link to="/Product">PRODUCT</Link>
@@ -28,9 +28,9 @@ export default () => {
           fontSize: "2.2em",
         }}
       >
-        Creating <strong>decentralized BTC</strong>
+        Creating <b>decentralized BTC</b>
         <br />
-        on all the <strong>blockchains</strong>
+        on all the <b>blockchains</b>
       </div>
       <div
         style={{

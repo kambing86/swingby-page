@@ -37,7 +37,7 @@ export default () => {
         className="rotating-coin"
         top={533.83 + 86.67 / 2}
         left={width / 2 - 720 + (744.1 + 86.61 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin.svg`}
         alt="Coin"
         sprintProps={rotateProps}
       />
@@ -45,7 +45,7 @@ export default () => {
         className="rotating-coin"
         top={458.38 + 34.74 / 2}
         left={width / 2 - 720 + (616.09 + 41.54 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-1.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-1.svg`}
         alt="Coin-1"
         sprintProps={rotateProps}
       />
@@ -53,7 +53,7 @@ export default () => {
         className="rotating-coin"
         top={448.73 + 49.39 / 2}
         left={width / 2 - 720 + (381.18 + 37.98 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-2.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-2.svg`}
         alt="Coin-2"
         sprintProps={rotateProps}
       />
@@ -61,7 +61,7 @@ export default () => {
         className="rotating-coin"
         top={417.72 + 102.93 / 2}
         left={width / 2 - 720 + (1018.15 + 102.85 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-3.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-3.svg`}
         alt="Coin-3"
         sprintProps={rotateProps}
       />
@@ -69,7 +69,7 @@ export default () => {
         className="rotating-coin"
         top={456.83 + 87.64 / 2}
         left={width / 2 - 720 + (929.44 + 87.58 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-4.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-4.svg`}
         alt="Coin-4"
         sprintProps={rotateProps}
       />
@@ -77,7 +77,7 @@ export default () => {
         className="rotating-coin"
         top={681.26 + 28.4 / 2}
         left={width / 2 - 720 + (621.06 + 36.44 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-5.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-5.svg`}
         alt="Coin-5"
         sprintProps={rotateProps}
       />
@@ -85,7 +85,7 @@ export default () => {
         className="rotating-coin"
         top={645 + 68.59 / 2}
         left={width / 2 - 720 + (777 + 67.13 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin ETH.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin ETH.svg`}
         alt="Coin ETH"
         sprintProps={rotateProps}
       />
@@ -93,7 +93,7 @@ export default () => {
         className="rotating-coin"
         top={649.82 + 89.3 / 2}
         left={width / 2 - 720 + (321 + 88.65 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin ETH-1.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin ETH-1.svg`}
         alt="Coin ETH-1"
         sprintProps={rotateProps}
       />
@@ -101,7 +101,7 @@ export default () => {
         className="rotating-coin"
         top={674.11 + 143.55 / 2}
         left={width / 2 - 720 + (464.66 + 143.45 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin-6.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin-6.svg`}
         alt="Coin-6"
         sprintProps={rotateProps}
       />
@@ -109,14 +109,14 @@ export default () => {
         className="rotating-coin"
         top={702.72 + 70.53 / 2}
         left={width / 2 - 720 + (933.33 + 78.49 / 2)}
-        src={`${PUBLIC_URL}/assets/HEADER02/Coin B.svg`}
+        src={`${PUBLIC_URL}/assets/header/Coin B.svg`}
         alt="Coin B"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         top={473.16}
         left={width / 2 - 720 + 367.9}
-        src={`${PUBLIC_URL}/assets/HEADER02/BOY.png`}
+        src={`${PUBLIC_URL}/assets/header/BOY.png`}
         alt="BOY"
         sprintProps={floatingProps}
       />
@@ -127,7 +127,7 @@ export default () => {
           top: 479.28,
           left: width / 2 - 720 + 733.01,
         }}
-        src={`${PUBLIC_URL}/assets/HEADER02/Chart.svg`}
+        src={`${PUBLIC_URL}/assets/header/Chart.svg`}
         alt="Chart"
       />
       <img
@@ -137,7 +137,7 @@ export default () => {
           top: 528.12,
           left: width / 2 - 720 + 586.28,
         }}
-        src={`${PUBLIC_URL}/assets/HEADER02/Chart-1.svg`}
+        src={`${PUBLIC_URL}/assets/header/Chart-1.svg`}
         alt="Chart-1"
       />
       <img
@@ -147,7 +147,7 @@ export default () => {
           top: 637.13,
           left: width / 2 - 720 + 507.97,
         }}
-        src={`${PUBLIC_URL}/assets/HEADER02/Chart-2.svg`}
+        src={`${PUBLIC_URL}/assets/header/Chart-2.svg`}
         alt="Chart-2"
       />
       <img
@@ -157,20 +157,20 @@ export default () => {
           top: 610.31,
           left: width / 2 - 720 + 867.78,
         }}
-        src={`${PUBLIC_URL}/assets/HEADER02/Chart-3.svg`}
+        src={`${PUBLIC_URL}/assets/header/Chart-3.svg`}
         alt="Chart-3"
       />
       <AnimatedImage
         top={507.85}
         left={width / 2 - 720 + 836.44}
-        src={`${PUBLIC_URL}/assets/HEADER02/Girl.svg`}
+        src={`${PUBLIC_URL}/assets/header/Girl.svg`}
         alt="Girl"
         sprintProps={floating2Props}
       />
       <AnimatedImage
         top={512.96}
         left={width / 2 - 720 + 634.44}
-        src={`${PUBLIC_URL}/assets/HEADER02/Boy Mid.svg`}
+        src={`${PUBLIC_URL}/assets/header/Boy Mid.svg`}
         alt="Boy Mid"
         sprintProps={floating3Props}
       />

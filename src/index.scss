@@ -47,11 +47,25 @@ code {
 }
 
 a.link-primary {
-  div {
-    border-radius: 10px;
+  * {
     background: #102e83;
+  }
+}
+
+a.link-secondary {
+  * {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+a.link-primary,
+a.link-secondary {
+  * {
+    border-radius: 10px;
+
     color: white;
     padding: 0.5em;
+    text-align: center;
   }
   &:hover {
     text-decoration: unset;

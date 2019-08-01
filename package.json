@@ -63,7 +63,7 @@
     "prettier:write": "prettier --write 'src/**/*.*'",
     "lint": "tslint 'src/**/*.{j,t}s{,x}' && eslint 'src/**/*.{j,t}s{,x}'",
     "lint:fix": "tslint --fix 'src/**/*.{j,t}s{,x}' && eslint --fix 'src/**/*.{j,t}s{,x}'",
-    "minify:images": "imagemin ./public/assets/HEADER02/* --out-dir=./public/assets/HEADER02"
+    "minify:images": "imagemin ./public/assets/* --out-dir=./minified_images"
   },
   "husky": {
     "hooks": {

@@ -2,18 +2,18 @@ import React from "react";
 import "./Whitepaper.scss";
 
 export default () => (
-  <div className="whitepaper text-secondary">
-    <div className="whitepaper-header py-5">
-      <strong>Decentralized token issuance</strong>
+  <div className="whitepaper text-secondary py-3">
+    <div className="whitepaper-header my-5">
+      <b>Decentralized token issuance</b>
       <br />
       powered by
-      <strong> Swingby Trusted Cloud</strong>
+      <b> Swingby Trusted Cloud</b>
     </div>
-    <div className="container">
+    <div className="container my-5">
       <div className="row">
         <div className="col-12 col-md-8 py-2">
           <div className="py-2">
-            <strong>Swingby</strong> Whitepaper
+            <b>Swingby</b> Whitepaper
           </div>
           <div className="text-dark">
             The point of using Lorem Ipsum is that it has a more-or-less normal

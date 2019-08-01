@@ -1,0 +1,25 @@
+.services {
+  background: radial-gradient(
+    857.7px at 40.44% 51.15%,
+    #0f0e8a 0%,
+    #0e0f69 100%
+  );
+
+  .services-header {
+    font-size: 2em;
+  }
+
+  .services-bg > .container {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  @media (min-width: 768px) {
+    .row > div:first-child {
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .content {
+    font-size: 0.8em;
+  }
+}
