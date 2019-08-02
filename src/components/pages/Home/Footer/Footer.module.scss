@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.background {
+  background: #232c44;
+  text-align: left;
+
+  a {
+    color: white;
+    display: block;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  @include media-breakpoint-up(sm) {
+    text-align: center;
+
+    a {
+      display: inline-block;
+    }
+  }
+}
