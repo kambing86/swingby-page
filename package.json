@@ -26,6 +26,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-intersection-observer": "^8.24.1",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
@@ -34,8 +35,7 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "typesafe-actions": "^4.4.2",
-    "typescript": "3.5.3",
-    "use-is-in-viewport": "^1.0.3"
+    "typescript": "3.5.3"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.9",
@@ -47,6 +47,7 @@
     "gh-pages": "^2.1.0",
     "husky": "^3.0.2",
     "imagemin-cli": "^5.0.0",
+    "intersection-observer": "^0.7.0",
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
     "tslint": "^5.18.0",
