@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .background {
   background: white;
 
@@ -6,7 +8,15 @@
   }
 
   a {
-    margin: 0 1em;
     color: #2747a0;
+    display: block;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+
+  @include media-breakpoint-up(sm) {
+    a {
+      display: inline-block;
+    }
   }
 }
