@@ -1,7 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./components/pages/Home/HomePage";
+import Cloud from "./components/pages/Cloud";
+import Home from "./components/pages/Home";
 import NotFoundPage from "./components/pages/NotFoundPage";
 import store from "./store";
 import "./App.scss";
@@ -12,7 +13,8 @@ const App: React.FC = () => {
       <Provider store={store}>
         <Router basename={process.env.PUBLIC_URL || ""}>
           <Switch>
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/Product" component={Cloud} />
             <Route component={NotFoundPage} />
           </Switch>
         </Router>

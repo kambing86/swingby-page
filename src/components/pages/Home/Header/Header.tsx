@@ -11,9 +11,9 @@ export default () => {
     <div className="header">
       <Parallax />
       <Animation />
-      <a className="header-logo" href="/">
+      <Link className="header-logo" to="/">
         <img src={`${PUBLIC_URL}/assets/header/LOGO.png`} alt="LOGO" />
-      </a>
+      </Link>
       <div className="top-menu d-none d-md-block">
         <Link to="/Product">PRODUCT</Link>
         <a href="https://medium.com/swingby-protocol/">BLOG</a>

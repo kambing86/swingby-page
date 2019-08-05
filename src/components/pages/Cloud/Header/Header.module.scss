@@ -1,0 +1,51 @@
+.header {
+  position: relative;
+  font-family: Montserrat;
+  min-width: 320px;
+  background: linear-gradient(208.21deg, #4569ce -3.19%, #040b2d 116.19%);
+  min-height: 1104px;
+  overflow: hidden;
+
+  > div {
+    min-height: 1104px;
+  }
+}
+
+.top-menu {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-weight: bold;
+
+  > a {
+    background: white;
+    color: #2e4794;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      text-decoration: unset;
+    }
+  }
+}
+
+.logo {
+  padding-top: 5rem;
+  text-align: left;
+  font-size: 1.2rem;
+
+  > img {
+    width: 4rem;
+  }
+
+  h3 {
+    font-weight: bolder;
+  }
+
+  :global {
+    .row > div {
+      padding-left: 2rem;
+    }
+  }
+}
