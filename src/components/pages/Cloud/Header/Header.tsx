@@ -23,11 +23,11 @@ export default () => {
               />
               <br />
               <br />
-              <h3>
+              <h1>
                 SWINGBY
                 <br />
                 TRUSTED CLOUD
-              </h3>
+              </h1>
               <div>Physically trust, highly secure accessibility</div>
             </div>
           </div>
