@@ -1,21 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
 .header {
   position: relative;
   font-family: Montserrat;
   min-width: 320px;
   background: linear-gradient(208.21deg, #4569ce -3.19%, #040b2d 116.19%);
-  min-height: 1104px;
   overflow: hidden;
-
-  > div {
-    min-height: 1104px;
-  }
 }
 
 .top-menu {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: bold;
 
   > a {
@@ -31,22 +28,35 @@
   }
 }
 
-.logo {
+.row-1 {
+  margin-bottom: 5rem;
   padding-top: 10rem;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.32rem;
 
-  > img {
-    width: 4rem;
+  img {
+    width: 4.7rem;
   }
 
   h1 {
     font-weight: bolder;
+    font-size: 2.2rem;
   }
 
-  :global {
-    .row > div {
-      padding-left: 2rem;
-    }
+  > div {
+    padding-left: 2rem;
   }
+}
+
+.row-2 {
+  font-size: 1.25rem;
+  padding-bottom: 6rem;
+  @include media-breakpoint-up(md) {
+    padding-bottom: 4rem;
+  }
+}
+
+.hr {
+  border-top: 1px solid white;
+  width: 120px;
 }

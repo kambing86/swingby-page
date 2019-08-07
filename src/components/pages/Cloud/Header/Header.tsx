@@ -8,14 +8,14 @@ export default () => {
     <div className={`${styles.header} text-primary`}>
       <div
         style={{
-          background: `url(${PUBLIC_URL}/assets/cloud/bg-pattern.png) repeat`,
+          background: `url(${PUBLIC_URL}/assets/cloud/bg-pattern.png) -50% -50% repeat`,
         }}
       >
         <div className={`${styles["top-menu"]}`}>
           <a href="https://twitter.com/swingbyprotocol/">Contact Us</a>
         </div>
-        <div className={`${styles.logo} container`}>
-          <div className="row">
+        <div className="container">
+          <div className={`${styles["row-1"]} row`}>
             <div className="col-9 col-md-6">
               <img
                 src={`${PUBLIC_URL}/assets/cloud/cloud-logo.svg`}
@@ -29,6 +29,14 @@ export default () => {
                 TRUSTED CLOUD
               </h1>
               <div>Physically trust, highly secure accessibility</div>
+            </div>
+          </div>
+          <hr className={styles.hr} />
+          <div className={`${styles["row-2"]} row`}>
+            <div className="col-12 text-center">
+              See what's possible with
+              <br />
+              Swingby Cloud
             </div>
           </div>
         </div>
