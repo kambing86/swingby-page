@@ -7,10 +7,16 @@ export default () => {
   return (
     <div className={`${styles.header} text-primary`}>
       <div
+        className={`${styles["header-bg"]}`}
         style={{
-          background: `url(${PUBLIC_URL}/assets/cloud/bg-pattern.png) -50% -50% repeat`,
+          background: `url(${PUBLIC_URL}/assets/cloud/bg-pattern.png) repeat`,
         }}
       >
+        <img
+          className={`${styles.nodes}`}
+          src={`${PUBLIC_URL}/assets/cloud/nodes.svg`}
+          alt="nodes"
+        />
         <div className={`${styles["top-menu"]}`}>
           <a href="https://twitter.com/swingbyprotocol/">Contact Us</a>
         </div>

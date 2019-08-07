@@ -8,6 +8,25 @@
   overflow: hidden;
 }
 
+.header-bg {
+  @include media-breakpoint-down(sm) {
+    background-position-x: -50%;
+    background-position-y: -50%;
+  }
+}
+
+.nodes {
+  position: absolute;
+  top: 25%;
+  left: 80%;
+  width: 100vw;
+  max-width: 1032px;
+  transform: translate(-50%, -50%);
+  @include media-breakpoint-up(lg) {
+    top: 40%;
+  }
+}
+
 .top-menu {
   position: absolute;
   top: 2rem;
