@@ -4,9 +4,9 @@ import styles from "./Community.module.scss";
 const { PUBLIC_URL } = process.env;
 
 export default () => (
-  <div className={`${styles.background} text-secondary py-3`}>
+  <div className={`${styles["background"]} text-secondary py-3`}>
     <div className="container">
-      <div className={`${styles.header} my-5`}>
+      <div className={`${styles["header"]} my-5`}>
         <b>Join the</b>
         <br />
         Community

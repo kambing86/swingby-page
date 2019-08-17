@@ -12,7 +12,7 @@ export default () => {
       <Parallax />
       <Animation />
       <Link className="header-logo" to="/">
-        <img src={`${PUBLIC_URL}/assets/header/LOGO.png`} alt="LOGO" />
+        <img src={`${PUBLIC_URL}/assets/home/LOGO.png`} alt="LOGO" />
       </Link>
       <div className="top-menu d-none d-md-block">
         <Link to="/Product">PRODUCT</Link>

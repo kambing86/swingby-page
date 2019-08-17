@@ -5,7 +5,7 @@ const { PUBLIC_URL } = process.env;
 
 export default () => {
   return (
-    <div className={`${styles.header} text-primary`}>
+    <div className={`${styles["header"]} text-primary`}>
       <div
         className={`${styles["header-bg"]}`}
         style={{
@@ -13,7 +13,7 @@ export default () => {
         }}
       >
         <img
-          className={`${styles.nodes}`}
+          className={`${styles["nodes"]}`}
           src={`${PUBLIC_URL}/assets/cloud/nodes.svg`}
           alt="nodes"
         />
@@ -37,7 +37,7 @@ export default () => {
               <div>Physically trust, highly secure accessibility</div>
             </div>
           </div>
-          <hr className={styles.hr} />
+          <hr className={styles["hr"]} />
           <div className={`${styles["row-2"]} row`}>
             <div className="col-12 text-center">
               See what's possible with

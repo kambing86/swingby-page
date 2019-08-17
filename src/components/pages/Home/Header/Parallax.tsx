@@ -10,21 +10,21 @@ export default () => {
       <div
         className="header-star"
         style={{
-          backgroundImage: `url("${PUBLIC_URL}/assets/header/star.png")`,
+          backgroundImage: `url("${PUBLIC_URL}/assets/home/star.png")`,
           transform: `translate(0, ${0.2 * y}px)`,
         }}
       />
       <div
         className="header-orbit"
         style={{
-          backgroundImage: `url("${PUBLIC_URL}/assets/header/orbit.png")`,
+          backgroundImage: `url("${PUBLIC_URL}/assets/home/orbit.png")`,
           transform: `translate(0, ${0.3 * y}px)`,
         }}
       />
       <div
         className="header-bg"
         style={{
-          backgroundImage: `url("${PUBLIC_URL}/assets/header/bg.svg")`,
+          backgroundImage: `url("${PUBLIC_URL}/assets/home/bg.svg")`,
           transform: `translate(0, ${0.4 * y}px)`,
         }}
       />

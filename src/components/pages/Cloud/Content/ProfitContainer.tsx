@@ -1,7 +1,7 @@
 import React, { useEffect, ReactNode } from "react";
 import { useInView } from "react-intersection-observer";
 import { animated, useSpring } from "react-spring";
-import styles from "./BoxContainer.module.scss";
+import styles from "./ProfitContainer.module.scss";
 
 export default (props: {
   imageSrc: string;
@@ -23,13 +23,17 @@ export default (props: {
   }, [isInView, set]);
   return (
     <animated.div
-      className={`${styles["box-container"]}`}
+      className={`${styles["profit-container"]} row align-items-center`}
       style={springProps}
       ref={ref}
     >
-      <img src={props.imageSrc} alt={props.imageAlt} />
-      <h3>{props.title}</h3>
-      <div>{props.description}</div>
+      <div className="col-12 col-md-4">
+        <img src={props.imageSrc} alt={props.imageAlt} />
+      </div>
+      <div className="col-12 col-md-8 text-left">
+        <h3 className="text-center text-md-left">{props.title}</h3>
+        <div>{props.description}</div>
+      </div>
     </animated.div>
   );
 };
