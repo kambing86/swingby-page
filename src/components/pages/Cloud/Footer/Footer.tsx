@@ -10,7 +10,7 @@ export default () => {
       <div
         className={`${styles["footer-bg"]}`}
         style={{
-          background: `url(${PUBLIC_URL}/assets/cloud/footer-bg.png) no-repeat`,
+          background: `url(${PUBLIC_URL}/assets/cloud/footer-bg.png) repeat-x`,
         }}
       >
         <AnimatedContainer className="container pt-5 pb-3">
