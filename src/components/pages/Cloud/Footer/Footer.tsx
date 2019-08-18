@@ -1,3 +1,4 @@
+import AnimatedContainer from "components/common/AnimatedContainer";
 import React from "react";
 import styles from "./Footer.module.scss";
 
@@ -12,7 +13,7 @@ export default () => {
           background: `url(${PUBLIC_URL}/assets/cloud/footer-bg.png) no-repeat`,
         }}
       >
-        <div className="container pt-5 pb-3">
+        <AnimatedContainer className="container pt-5 pb-3">
           <hr />
           <h2>Ultimate Goal</h2>
           <p className="my-5">
@@ -31,7 +32,7 @@ export default () => {
               © 2019 All Rights Reserved
             </div>
           </div>
-        </div>
+        </AnimatedContainer>
       </div>
     </div>
   );

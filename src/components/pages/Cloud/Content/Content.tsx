@@ -1,3 +1,4 @@
+import AnimatedContainer from "components/common/AnimatedContainer";
 import React from "react";
 import BenefitContainer from "./BenefitContainer";
 import BoxContainer from "./BoxContainer";
@@ -42,7 +43,7 @@ export default () => {
         </div>
       </div>
       <div className={`${styles["big-content"]} row`}>
-        <div className="col-12 mt-5">
+        <AnimatedContainer className="col-12 mt-5">
           <hr />
           <h2>What is Swingby Trusted Cloud?</h2>
           <p className="mt-4">
@@ -52,7 +53,7 @@ export default () => {
             node has no external network access and can only be interacted with
             through blockchain events.
           </p>
-        </div>
+        </AnimatedContainer>
       </div>
       <div className={`${styles["small-content"]} row`}>
         <div className="col-12 mt-5">
@@ -102,7 +103,7 @@ export default () => {
         </div>
       </div>
       <div className={`${styles["big-content"]} row`}>
-        <div className="col-12 mt-5">
+        <AnimatedContainer className="col-12 mt-5">
           <hr />
           <h2>What is Bitcoin Tokens (BTCT)</h2>
           <img
@@ -118,7 +119,7 @@ export default () => {
             other blockchains to the Ethereum Network. Swingby Protocol is
             powered by the Swingby Trusted Cloud.
           </p>
-        </div>
+        </AnimatedContainer>
       </div>
       <div className={`${styles["small-content"]} row`}>
         <div className="col-12">
