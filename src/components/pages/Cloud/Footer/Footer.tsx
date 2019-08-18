@@ -12,7 +12,7 @@ export default () => {
           background: `url(${PUBLIC_URL}/assets/cloud/footer-bg.png) no-repeat`,
         }}
       >
-        <div className="container pt-5 pb-2">
+        <div className="container pt-5 pb-3">
           <hr />
           <h2>Ultimate Goal</h2>
           <p className="my-5">
