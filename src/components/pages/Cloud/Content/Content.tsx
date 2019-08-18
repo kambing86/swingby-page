@@ -100,6 +100,25 @@ export default () => {
           />
         </div>
       </div>
+      <div className={`${styles["big-content"]} row`}>
+        <div className="col-12 mt-3">
+          <hr />
+          <h2>What is Bitcoin Tokens (BTCT)</h2>
+          <img
+            src={`${PUBLIC_URL}/assets/cloud/Bitcoin-to-ETH.svg`}
+            alt="Bitcoin-to-ETH"
+            className="my-4"
+            style={{ width: "9rem" }}
+          />
+          <p className="mt-4">
+            The Bitcoin Token (BTCT) is an ERC-20 token on the Ethereum network
+            which has its value pegged to Bitcoin. BTCT is powered by the
+            Swingby Protocol which aims to bring the value and liquidity of
+            other blockchains to the Ethereum Network. Swingby Protocol is
+            powered by the Swingby Trusted Cloud.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
