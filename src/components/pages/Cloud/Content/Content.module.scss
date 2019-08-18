@@ -5,6 +5,20 @@
     border-top: 5px solid #242650;
     width: 120px;
   }
+
+  a {
+    background: #1f42a5;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      text-decoration: unset;
+    }
+  }
+
+  padding-bottom: 3rem;
 }
 
 .offset-content {
@@ -26,9 +40,6 @@
       padding: 0 2rem;
     }
   }
-}
-
-.small-content {
 }
 
 .big-content,

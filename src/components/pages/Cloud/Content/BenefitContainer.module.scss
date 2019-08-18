@@ -1,15 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
-.profit-container {
+.benefit-container {
   margin-top: 3rem;
 
   img {
     width: 5rem;
     @include media-breakpoint-down(sm) {
       margin-bottom: 2rem;
-    }
-    @include media-breakpoint-up(md) {
-      width: 8rem;
     }
   }
 
@@ -27,11 +24,5 @@
     @include media-breakpoint-up(md) {
       font-size: 0.9rem;
     }
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .profit-container:nth-child(even) {
-    flex-direction: row-reverse;
   }
 }

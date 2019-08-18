@@ -1,4 +1,5 @@
 import React from "react";
+import BenefitContainer from "./BenefitContainer";
 import BoxContainer from "./BoxContainer";
 import styles from "./Content.module.scss";
 import ProfitContainer from "./ProfitContainer";
@@ -41,7 +42,7 @@ export default () => {
         </div>
       </div>
       <div className={`${styles["big-content"]} row`}>
-        <div className="col-12 mt-3">
+        <div className="col-12 mt-5">
           <hr />
           <h2>What is Swingby Trusted Cloud?</h2>
           <p className="mt-4">
@@ -54,7 +55,7 @@ export default () => {
         </div>
       </div>
       <div className={`${styles["small-content"]} row`}>
-        <div className="col-12 mt-3">
+        <div className="col-12 mt-5">
           <hr />
           <h2>Profitabilty</h2>
           <ProfitContainer
@@ -101,7 +102,7 @@ export default () => {
         </div>
       </div>
       <div className={`${styles["big-content"]} row`}>
-        <div className="col-12 mt-3">
+        <div className="col-12 mt-5">
           <hr />
           <h2>What is Bitcoin Tokens (BTCT)</h2>
           <img
@@ -117,6 +118,71 @@ export default () => {
             other blockchains to the Ethereum Network. Swingby Protocol is
             powered by the Swingby Trusted Cloud.
           </p>
+        </div>
+      </div>
+      <div className={`${styles["small-content"]} row`}>
+        <div className="col-12">
+          <hr />
+          <h2>Bitcoin Token Benefits</h2>
+        </div>
+        <div className="col-12 col-md-6">
+          <BenefitContainer
+            imageSrc={`${PUBLIC_URL}/assets/cloud/DEX.svg`}
+            imageAlt="DEX"
+            title="DEX"
+            description={
+              <p>
+                Enabling BTC trading via DEXes on Ethereum (e.g.0x protocol)
+                will lead to increased liquidity at the exchanges.
+              </p>
+            }
+          />
+        </div>
+        <div className="col-12 col-md-6">
+          <BenefitContainer
+            imageSrc={`${PUBLIC_URL}/assets/cloud/Lending.svg`}
+            imageAlt="Lending"
+            title="LENDING"
+            description={
+              <p>
+                BTC tokens can be used in decentralized lending protocols (e.g.
+                Dharma) enhancing the possibilities of BTC.
+              </p>
+            }
+          />
+        </div>
+        <div className="col-12 col-md-6">
+          <BenefitContainer
+            imageSrc={`${PUBLIC_URL}/assets/cloud/Derivatives.svg`}
+            imageAlt="Derivatives"
+            title="DERIVATIVES"
+            description={
+              <p>
+                Financial derivatives protocols (e.g. dYdX protocol) with short
+                sell and options functions can use BTC tokens.
+              </p>
+            }
+          />
+        </div>
+        <div className="col-12 col-md-6">
+          <BenefitContainer
+            imageSrc={`${PUBLIC_URL}/assets/cloud/Payment.svg`}
+            imageAlt="Payment"
+            title="PAYMENT"
+            description={
+              <p>
+                BTC tokens can be held in Ethereum wallets and used for payment
+                or throughout Ethereum Dapps.
+              </p>
+            }
+          />
+        </div>
+        <div className="col-12">
+          <div>
+            <a href="https://twitter.com/swingbyprotocol/">
+              Go to Swingby Protocol
+            </a>
+          </div>
         </div>
       </div>
     </div>

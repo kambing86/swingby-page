@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+.footer {
+  position: relative;
+  min-width: 320px;
+  background: linear-gradient(198.41deg, #1f42a5 17.47%, #040b2d 93.53%);
+  overflow: hidden;
+
+  hr {
+    border-top: 5px solid white;
+    width: 120px;
+  }
+}
+
+.footer-bg {
+  @include media-breakpoint-down(sm) {
+    background-position-x: -50%;
+    background-position-y: -50%;
+  }
+}
+
+.footer-link {
+  font-size: 0.7rem;
+  border-top: 1px solid #ecede7;
+  > [class*="col-"] {
+    padding: 1rem 0;
+  }
+  a {
+    color: white !important;
+
+    &:hover {
+      text-decoration: unset;
+    }
+  }
+}
