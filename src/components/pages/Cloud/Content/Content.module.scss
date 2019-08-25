@@ -21,12 +21,12 @@
   padding-bottom: 3rem;
 }
 
-.offset-content {
-  position: relative;
-  top: -5rem;
-  @include media-breakpoint-up(md) {
-    top: -3rem;
-  }
+.box-content {
+  // position: relative;
+  // top: -5rem;
+  // @include media-breakpoint-up(md) {
+  //   top: -3rem;
+  // }
 
   > div {
     padding-top: 1rem;

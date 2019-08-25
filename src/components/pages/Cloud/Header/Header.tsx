@@ -37,14 +37,6 @@ export default () => {
               <div>Physically trust, highly secure accessibility</div>
             </div>
           </div>
-          <hr className={styles["hr"]} />
-          <div className={`${styles["row-2"]} row`}>
-            <div className="col-12 text-center">
-              See what's possible with
-              <br />
-              Swingby Cloud
-            </div>
-          </div>
         </div>
       </div>
     </div>
