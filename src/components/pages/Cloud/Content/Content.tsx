@@ -24,12 +24,12 @@ export default () => {
         </AnimatedContainer>
       </div>
       <div className={`${styles["box-content"]} row mt-3`}>
-        <div className="col-12 text-center">
+        <AnimatedContainer className="col-12 text-center">
           <hr />
           See what's possible with
           <br />
           Swingby Cloud
-        </div>
+        </AnimatedContainer>
         <div className="col-12 col-md-4">
           <BoxContainer
             imageSrc={`${PUBLIC_URL}/assets/cloud/SafePOS.svg`}
@@ -63,8 +63,10 @@ export default () => {
       </div>
       <div className={`${styles["small-content"]} row`}>
         <div className="col-12 mt-5">
-          <hr />
-          <h2>Profitabilty</h2>
+          <AnimatedContainer>
+            <hr />
+            <h2>Profitabilty</h2>
+          </AnimatedContainer>
           <ProfitContainer
             imageSrc={`${PUBLIC_URL}/assets/cloud/ApplicationDeployment.svg`}
             imageAlt="ApplicationDeployment"
@@ -128,10 +130,10 @@ export default () => {
         </AnimatedContainer>
       </div>
       <div className={`${styles["small-content"]} row`}>
-        <div className="col-12">
+        <AnimatedContainer className="col-12">
           <hr />
           <h2>Bitcoin Token Benefits</h2>
-        </div>
+        </AnimatedContainer>
         <div className="col-12 col-md-6">
           <BenefitContainer
             imageSrc={`${PUBLIC_URL}/assets/cloud/DEX.svg`}
