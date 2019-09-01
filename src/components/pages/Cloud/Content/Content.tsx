@@ -15,11 +15,12 @@ export default () => {
           <hr />
           <h2>What is Swingby Trusted Cloud?</h2>
           <p className="mt-4">
-            A trusted execution environment ensuring immutability of deployed
-            application containers. Secured through a hash logger which logs the
-            hash of the application containers with each execution. A Swingby
-            node has no external network access and can only be interacted with
-            through blockchain events.
+            STC is an infrastructure consisting of multiple physical hardware
+            STC node machines, which called STC nodes, connected to each other
+            over the internet. STC nodes are designed and constructed to be both
+            technically and physically secure. All STC nodes are controlled only
+            by Ethereum transaction, and a node is protected by concrete blocks
+            several meters underground.
           </p>
         </AnimatedContainer>
       </div>
@@ -63,10 +64,10 @@ export default () => {
       </div>
       <div className={`${styles["small-content"]} row`}>
         <div className="col-12 mt-5">
-          <AnimatedContainer>
+          {/* <AnimatedContainer>
             <hr />
             <h2>Profitabilty</h2>
-          </AnimatedContainer>
+          </AnimatedContainer> */}
           <ProfitContainer
             imageSrc={`${PUBLIC_URL}/assets/cloud/ApplicationDeployment.svg`}
             imageAlt="ApplicationDeployment"
@@ -113,7 +114,7 @@ export default () => {
       <div className={`${styles["big-content"]} row`}>
         <AnimatedContainer className="col-12 mt-5">
           <hr />
-          <h2>What is Bitcoin Tokens (BTCT)</h2>
+          <h2>What is Bitcoin Tokens</h2>
           <img
             src={`${PUBLIC_URL}/assets/cloud/Bitcoin-to-ETH.svg`}
             alt="Bitcoin-to-ETH"

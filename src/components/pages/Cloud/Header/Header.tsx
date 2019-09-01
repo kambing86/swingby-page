@@ -17,9 +17,9 @@ export default () => {
           src={`${PUBLIC_URL}/assets/cloud/nodes.svg`}
           alt="nodes"
         />
-        <div className={`${styles["top-menu"]}`}>
+        {/* <div className={`${styles["top-menu"]}`}>
           <a href="https://twitter.com/swingbyprotocol/">Contact Us</a>
-        </div>
+        </div> */}
         <div className="container">
           <div className={`${styles["row-1"]} row`}>
             <div className="col-9 col-md-6">

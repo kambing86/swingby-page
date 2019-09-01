@@ -9,8 +9,8 @@ const floatConfig = { mass: 1, tension: 0.2, friction: 0.1 };
 
 export default () => {
   const rotateProps = useSprintRepeat({
-    from: { transform: "translate(-50%, -50%) rotate(0deg)" },
-    to: { transform: "translate(-50%, -50%) rotate(360deg)" },
+    from: { transform: "translate(-50%, -50%)" },
+    to: { transform: "translate(-50%, -50%)" },
     config: rotateConfig,
   });
   const floatingProps = useSprintRepeat({
