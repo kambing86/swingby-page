@@ -19,7 +19,7 @@
 
   .header-orbit {
     position: absolute;
-    background: 47.5vw 14.13vh no-repeat;
+    background: 110% 14.13vh no-repeat;
     min-height: 920px;
     width: 100%;
     pointer-events: none;
@@ -27,9 +27,8 @@
 
   .header-bg {
     position: absolute;
-    top: 0;
     mix-blend-mode: screen;
-    background: 35.56vw 14.87vh no-repeat;
+    background: 100% 14.87vh no-repeat;
     min-height: 920px;
     width: 100%;
     pointer-events: none;

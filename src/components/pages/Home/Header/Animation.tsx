@@ -17,7 +17,7 @@ export default () => {
     to: async (next: Function) => {
       // eslint-disable-next-line no-constant-condition
       while (true) {
-        await next({ transform: "translate(0, -20px)" });
+        await next({ transform: "translate(0, 20px)" });
         await next({ transform: "translate(0, 0px)" });
         await new Promise(resolve => setTimeout(resolve, 1000));
       }
@@ -51,10 +51,10 @@ export default () => {
     delay: 4000,
   };
   const { width } = useWindowSize();
-  const startX = width / 2 - 250;
-  const startY = -120;
+  const startX = width >= 1024 ? width - 950 : width / 2 - 720;
+  const startY = width >= 1024 ? -120 : 120;
   return (
-    <>
+    <div className="d-none d-sm-block">
       <AnimatedImage
         className="rotating-coin"
         top={startY + 533.83 + 86.67 / 2}
@@ -196,6 +196,6 @@ export default () => {
         alt="Boy Mid"
         sprintProps={floating3Props}
       />
-    </>
+    </div>
   );
 };
