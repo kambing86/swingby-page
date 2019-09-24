@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import React from "react";
-import { animated } from "react-spring";
+import { animated, useSpring } from "react-spring";
 import "./AnimatedImage.scss";
 
 export default React.memo(
@@ -19,13 +19,14 @@ export default React.memo(
     alt: string;
     sprintProps: any;
   }) => {
+    const props = useSpring(sprintProps);
     return (
       <animated.div
         className={classNames("animated-image", className)}
         style={{
           top,
           left,
-          ...sprintProps,
+          ...props,
         }}
       >
         <img src={src} alt={alt} />

@@ -14,22 +14,25 @@
     background: 50% 100%;
     min-height: 920px;
     width: 100%;
+    pointer-events: none;
   }
 
   .header-orbit {
     position: absolute;
-    background: 50% 100% no-repeat;
+    background: 47.5vw 14.13vh no-repeat;
     min-height: 920px;
     width: 100%;
+    pointer-events: none;
   }
 
   .header-bg {
     position: absolute;
     top: 0;
     mix-blend-mode: screen;
-    background: 50% 100% no-repeat;
+    background: 35.56vw 14.87vh no-repeat;
     min-height: 920px;
     width: 100%;
+    pointer-events: none;
   }
 
   .header-logo {

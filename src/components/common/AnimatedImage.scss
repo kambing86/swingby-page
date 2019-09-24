@@ -1,6 +1,7 @@
 .animated-image {
   position: absolute;
   user-select: none;
+  pointer-events: none;
 }
 .rotating-coin {
   mix-blend-mode: screen;
