@@ -1,20 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
-import "./Header.scss";
+import styles from "./Header.module.scss";
 import Parallax from "./Parallax";
 
 const { PUBLIC_URL } = process.env;
 
 export default () => {
   return (
-    <div className="header">
+    <div className={styles["header"]}>
       <Parallax />
       <Animation />
-      <Link className="header-logo" to="/">
+      <Link className={styles["header-logo"]} to="/">
         <img src={`${PUBLIC_URL}/assets/home/LOGO.svg`} alt="LOGO" />
       </Link>
-      <div className="top-menu d-none d-md-block">
+      <div className={`${styles["top-menu"]} d-none d-md-block`}>
         <Link to="/Product">PRODUCT</Link>
         <a href="https://medium.com/swingby-protocol/">BLOG</a>
         <a href="https://github.com/swingbyprotocol/">GITHUB</a>
@@ -48,7 +48,7 @@ export default () => {
           <br />
           blockchains in a decentralized way.
         </div>
-        <div className="text-left pt-4">
+        <div className="text-left pt-4 pb-5">
           <a
             href="https://twitter.com/swingbyprotocol/"
             target="_blank"

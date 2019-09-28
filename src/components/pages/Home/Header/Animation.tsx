@@ -51,101 +51,122 @@ export default () => {
     delay: 4000,
   };
   const { width } = useWindowSize();
-  const startX = width >= 1024 ? width - 950 : width / 2 - 720;
-  const startY = width >= 1024 ? -120 : 120;
+  const startX = width >= 1200 ? width - 950 : width / 2 - 720;
+  const startY = width >= 1200 ? -120 : width >= 576 ? 120 : 270;
   return (
-    <div className="d-none d-sm-block">
+    <div>
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 533.83 + 86.67 / 2}
-        left={startX + (744.1 + 86.61 / 2)}
+        style={{
+          top: startY + 533.83 + 86.67 / 2,
+          left: startX + 744.1 + 86.61 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin.svg`}
         alt="Coin"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 458.38 + 34.74 / 2}
-        left={startX + (616.09 + 41.54 / 2)}
+        style={{
+          top: startY + 458.38 + 34.74 / 2,
+          left: startX + 616.09 + 41.54 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-1.svg`}
         alt="Coin-1"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 448.73 + 49.39 / 2}
-        left={startX + (381.18 + 37.98 / 2)}
+        style={{
+          top: startY + 448.73 + 49.39 / 2,
+          left: startX + 381.18 + 37.98 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-2.svg`}
         alt="Coin-2"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 417.72 + 102.93 / 2}
-        left={startX + (1018.15 + 102.85 / 2)}
+        style={{
+          top: startY + 417.72 + 102.93 / 2,
+          left: startX + 1018.15 + 102.85 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-3.svg`}
         alt="Coin-3"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 456.83 + 87.64 / 2}
-        left={startX + (929.44 + 87.58 / 2)}
+        style={{
+          top: startY + 456.83 + 87.64 / 2,
+          left: startX + 929.44 + 87.58 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-4.svg`}
         alt="Coin-4"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 681.26 + 28.4 / 2}
-        left={startX + (621.06 + 36.44 / 2)}
+        style={{
+          top: startY + 681.26 + 28.4 / 2,
+          left: startX + 621.06 + 36.44 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-5.svg`}
         alt="Coin-5"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 645 + 68.59 / 2}
-        left={startX + (777 + 67.13 / 2)}
+        style={{
+          top: startY + 645 + 68.59 / 2,
+          left: startX + 777 + 67.13 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin ETH.svg`}
         alt="Coin ETH"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 649.82 + 89.3 / 2}
-        left={startX + (321 + 88.65 / 2)}
+        style={{
+          top: startY + 649.82 + 89.3 / 2,
+          left: startX + 321 + 88.65 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin ETH-1.svg`}
         alt="Coin ETH-1"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 674.11 + 143.55 / 2}
-        left={startX + (464.66 + 143.45 / 2)}
+        style={{
+          top: startY + 674.11 + 143.55 / 2,
+          left: startX + 464.66 + 143.45 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin-6.svg`}
         alt="Coin-6"
         sprintProps={rotateProps}
       />
       <AnimatedImage
         className="rotating-coin"
-        top={startY + 702.72 + 70.53 / 2}
-        left={startX + (933.33 + 78.49 / 2)}
+        style={{
+          top: startY + 702.72 + 70.53 / 2,
+          left: startX + 933.33 + 78.49 / 2,
+        }}
         src={`${PUBLIC_URL}/assets/home/Coin B.svg`}
         alt="Coin B"
         sprintProps={rotateProps}
       />
       <AnimatedImage
-        top={startY + 473.16}
-        left={startX + 367.9}
+        style={{
+          top: startY + 473.16,
+          left: startX + 367.9,
+        }}
         src={`${PUBLIC_URL}/assets/home/BOY.png`}
         alt="BOY"
         sprintProps={floatingProps}
       />
       <img
-        className="animated-image"
+        className="animated-image position-absolute"
         style={{
-          position: "absolute",
           top: startY + 479.28,
           left: startX + 733.01,
         }}
@@ -153,9 +174,8 @@ export default () => {
         alt="Chart"
       />
       <img
-        className="animated-image"
+        className="animated-image position-absolute"
         style={{
-          position: "absolute",
           top: startY + 528.12,
           left: startX + 586.28,
         }}
@@ -163,9 +183,8 @@ export default () => {
         alt="Chart-1"
       />
       <img
-        className="animated-image"
+        className="animated-image position-absolute"
         style={{
-          position: "absolute",
           top: startY + 637.13,
           left: startX + 507.97,
         }}
@@ -173,9 +192,8 @@ export default () => {
         alt="Chart-2"
       />
       <img
-        className="animated-image"
+        className="animated-image position-absolute"
         style={{
-          position: "absolute",
           top: startY + 610.31,
           left: startX + 867.78,
         }}
@@ -183,15 +201,19 @@ export default () => {
         alt="Chart-3"
       />
       <AnimatedImage
-        top={startY + 507.85}
-        left={startX + 836.44}
+        style={{
+          top: startY + 507.85,
+          left: startX + 836.44,
+        }}
         src={`${PUBLIC_URL}/assets/home/Girl.svg`}
         alt="Girl"
         sprintProps={floating2Props}
       />
       <AnimatedImage
-        top={startY + 512.96}
-        left={startX + 634.44}
+        style={{
+          top: startY + 512.96,
+          left: startX + 634.44,
+        }}
         src={`${PUBLIC_URL}/assets/home/Boy Mid.svg`}
         alt="Boy Mid"
         sprintProps={floating3Props}

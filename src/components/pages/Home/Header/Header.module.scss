@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .header {
   position: relative;
   min-width: 320px;
@@ -6,10 +8,16 @@
     #0f0e8a 0%,
     #0e0f69 100%
   );
-  min-height: 920px;
+  min-height: 1150px;
+  @include media-breakpoint-up(sm) {
+    min-height: 920px;
+  }
+  @include media-breakpoint-up(xl) {
+    min-height: 800px;
+  }
   overflow: hidden;
 
-  .header-star {
+  :global(.header-star) {
     position: absolute;
     background: 50% 100%;
     min-height: 920px;
@@ -17,7 +25,7 @@
     pointer-events: none;
   }
 
-  .header-orbit {
+  :global(.header-orbit) {
     position: absolute;
     background: 110% 14.13vh no-repeat;
     min-height: 920px;
@@ -25,7 +33,7 @@
     pointer-events: none;
   }
 
-  .header-bg {
+  :global(.header-bg) {
     position: absolute;
     mix-blend-mode: screen;
     background: 100% 14.87vh no-repeat;

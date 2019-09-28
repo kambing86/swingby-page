@@ -1,20 +1,18 @@
 import classNames from "classnames";
-import React from "react";
+import React, { CSSProperties } from "react";
 import { animated, useSpring } from "react-spring";
 import "./AnimatedImage.scss";
 
 export default React.memo(
   ({
     className,
-    top,
-    left,
+    style,
     src,
     alt,
     sprintProps,
   }: {
     className?: string;
-    top: number;
-    left: number;
+    style?: CSSProperties;
     src: string;
     alt: string;
     sprintProps: any;
@@ -24,8 +22,7 @@ export default React.memo(
       <animated.div
         className={classNames("animated-image", className)}
         style={{
-          top,
-          left,
+          ...style,
           ...props,
         }}
       >
