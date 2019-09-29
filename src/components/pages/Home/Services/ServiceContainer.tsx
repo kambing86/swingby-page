@@ -7,7 +7,7 @@ export default (props: {
   imageAlt: string;
   title: ReactNode;
   titleContent: ReactNode;
-  description: ReactNode;
+  link: string;
 }) => {
   const [ref, isInView] = useInView({
     threshold: 0.5,
@@ -22,17 +22,22 @@ export default (props: {
     }
   }, [isInView, set]);
   return (
-    <animated.div style={springProps}>
+    <animated.div className="col-12 col-md-4" style={springProps}>
       <div className="services-bg p-3" ref={ref}>
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-6 px-3 my-3 my-md-4">
+          <div className="row p-3 my-3">
+            <div className="col-12">
               <img src={props.imageSrc} alt={props.imageAlt} />
-              <div className="mt-2">{props.title}</div>
-              <div className="content mt-2">{props.titleContent}</div>
-            </div>
-            <div className="col-12 col-md-6 px-3 my-3 my-md-4 text-center text-md-left">
-              {props.description}
+              <div className="my-2">{props.title}</div>
+              <div className="content my-2 text-left">{props.titleContent}</div>
+              <a
+                className="link-secondary my-2"
+                href={props.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div>Getting Started</div>
+              </a>
             </div>
           </div>
         </div>

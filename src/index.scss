@@ -47,12 +47,14 @@ code {
 a.link-primary {
   * {
     background: #102e83;
+    color: white;
   }
 }
 
 a.link-secondary {
   * {
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    color: #102e83;
   }
 }
 
@@ -60,7 +62,6 @@ a.link-primary,
 a.link-secondary {
   * {
     border-radius: 10px;
-    color: white;
     padding: 0.5em 1em;
     text-align: center;
     display: inline-block;

@@ -7,7 +7,7 @@ export default () => (
       <b>BTC token issuance</b>
       <br />
       powered by
-      <b> Swingby Connect</b>
+      <b> Swingby SWAP</b>
     </div>
     <div className="container my-5">
       <div className="row">
