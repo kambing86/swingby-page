@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swingby-page/static/css/main.ce61898f.chunk.css",
+    "main.js": "/swingby-page/static/js/main.f872e838.chunk.js",
+    "main.js.map": "/swingby-page/static/js/main.f872e838.chunk.js.map",
+    "runtime~main.js": "/swingby-page/static/js/runtime~main.94aa0c2c.js",
+    "runtime~main.js.map": "/swingby-page/static/js/runtime~main.94aa0c2c.js.map",
+    "static/js/2.9f1f7417.chunk.js": "/swingby-page/static/js/2.9f1f7417.chunk.js",
+    "static/js/2.9f1f7417.chunk.js.map": "/swingby-page/static/js/2.9f1f7417.chunk.js.map",
+    "index.html": "/swingby-page/index.html",
+    "precache-manifest.a6f64685801c87544685a6a858e30ab6.js": "/swingby-page/precache-manifest.a6f64685801c87544685a6a858e30ab6.js",
+    "service-worker.js": "/swingby-page/service-worker.js",
+    "static/css/main.ce61898f.chunk.css.map": "/swingby-page/static/css/main.ce61898f.chunk.css.map"
+  }
+}
